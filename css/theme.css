@@ -1,7 +1,17 @@
 :root {
+--color-primary: #016B45;
+--color-secondary: #F4BF4B;
+--color-accent: #E84E4E;
+--color-white: #FFFFFF;
+--color-light-grey: #F7F5F3;
+--color-grey: #A2A0A0;
+--color-black: #000000;
+
+--font-primary: "Brandon Grotesque", sans-serif;
+--font-secondary: "Courier", monospace;
 
 }
 
 html {
-  font-family: var(--fontprimary);
+  font-family: var(--font-primary);
 }
