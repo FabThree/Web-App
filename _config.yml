@@ -1,5 +1,19 @@
 permalink: pretty
 theme: jekyll_patternbot
 
-patternbut:
-  font_url: ""
+patternbot:
+  title: "Honeybird"
+  description: |
+    Description of company.
+  font_url: "https://use.typekit.net/kbu1taj.css"
+  rationales:
+    typefaces.primary: |
+      Brandon Grotesque was selected because
+    typefaces.secondary: |
+      Courier is only to be used for secondary information like labels, descriptions and time.
+    colors.primary: |
+      The primary green colour was selected because
+    colors.secondary: |
+      The secondary yellow colour was selected because
+    colors.accent: |
+      The red accent colour was selected because
