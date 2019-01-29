@@ -6,6 +6,8 @@ patternbot:
   description: |
     Description of company.
   font_url: "https://use.typekit.net/kbu1taj.css"
+  colors:
+    background: "--color-light-grey"
   rationales:
     typefaces.primary: |
       Brandon Grotesque was selected because
