@@ -8,10 +8,11 @@
 --color-black: #000000;
 
 --font-primary: "Brandon Grotesque", sans-serif;
---font-secondary: "Courier", monospace;
+--font-secondary: Courier, monospace;
 
 }
 
 html {
   font-family: var(--font-primary);
+  background-color: var(--color-light-grey);
 }
