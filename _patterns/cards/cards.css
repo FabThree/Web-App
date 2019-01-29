@@ -11,3 +11,15 @@
 .card-arrow:focus {
   transform: translateX(.5em);
 }
+
+.card-img {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://via.placeholder.com/100x100');
+}
+
+.card-btn {
+  top: 90%;
+  right: 5%;
+}
