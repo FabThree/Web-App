@@ -6,3 +6,23 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+.color-accent {
+  color: var(--color-accent);
+}
+
+.color-grey {
+  color: var(--color-grey);
+}

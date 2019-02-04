@@ -1,0 +1,12 @@
+.btn {
+  background-color: var(--color-secondary);
+  color: var(--color-black);
+  border-radius: 0;
+  border-color: var(--color-secondary);
+  transition: all .3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--color-secondary);
+}
