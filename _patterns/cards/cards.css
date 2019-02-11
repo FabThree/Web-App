@@ -16,10 +16,15 @@
   overflow: hidden;
   background-size: cover;
   background-position: center;
-  background-image: url('https://via.placeholder.com/100x100');
+  background-image: url("https://via.placeholder.com/100x100");
 }
 
 .card-btn {
   top: 90%;
+  right: 5%;
+}
+
+.card-btn-2 {
+  top: 50%;
   right: 5%;
 }
