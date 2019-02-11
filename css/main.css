@@ -35,3 +35,12 @@
   background-color: var(--color-secondary);
 
 }
+
+.yellow-nav a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.yellow-nav a:hover {
+  color: var(--color-white);
+}
