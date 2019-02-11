@@ -1,0 +1,61 @@
+.round-photo {
+  border-radius: 50%;
+}
+
+.text-input {
+  border: 0;
+  background-color: var(--color-white);
+  height: 50px;
+}
+
+.search-bar {
+  width: 55%;
+}
+
+.home-banner-shape-green {
+  background-image: url("/images/green-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45vh;
+}
+
+.home-banner-shape-white {
+  background-image: url("");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.home-banner-bg {
+  background-image: url("/images/pizza.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55vh;
+}
+
+.icon-logo {
+  width: 128px;
+  height: 27px;
+}
+
+@media only screen and (min-width: 40em) {
+
+  .home-banner-shape-green {
+    background-size: contain;
+    height: 48vh;
+  }
+
+  .search-bar {
+    width: 30%;
+  }
+
+}
+
+@media only screen and (min-width: 70em) {
+
+  .home-banner-shape-white {
+    background-image: url("/images/white-background.svg");
+    background-position: right top;
+    background-size: 30%;
+  }
+
+}
