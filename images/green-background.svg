@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 949.3 535.1" style="enable-background:new 0 0 949.3 535.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.94;filter:url(#a);enable-background:new    ;}
+	.st1{fill:#016B45;}
+</style>
+<filter  filterUnits="userSpaceOnUse" height="535.1" id="a" width="949.27" x="0" y="0">
+	<feOffset  dx="4" dy="4"></feOffset>
+	<feGaussianBlur  result="blur" stdDeviation="9"></feGaussianBlur>
+	<feFlood  flood-opacity=".2"></feFlood>
+	<feComposite  in2="blur" operator="in"></feComposite>
+	<feComposite  in="SourceGraphic" operator="over"></feComposite>
+</filter>
+<g class="st0">
+	<path class="st1" d="M0,0h895.3c0,0-90.9-1.2-122.2,48.6s18.8,91.9-53,166.3s-262.2,73.2-341.5,125s-63.3,112.3-152.7,132.3
+		S0,472.2,0,472.2L0,0z"/>
+</g>
+</svg>
