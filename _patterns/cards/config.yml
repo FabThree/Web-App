@@ -1,0 +1,4 @@
+patterns:
+  menu-item-card:
+    padding: 2em
+    description: This should be used inside restaurant pages to show menu items.
