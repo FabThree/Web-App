@@ -16,7 +16,7 @@
   background-image: url("/images/green-background.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 45vh;
+  height: 60vh;
 }
 
 .home-banner-shape-white {
@@ -29,19 +29,39 @@
   background-image: url("/images/pizza.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 55vh;
+  height: 60vh;
 }
 
 .icon-logo {
   width: 128px;
   height: 27px;
+  transition: all .3s ease;
+}
+
+.icon-logo:hover,
+.icon-logo:focus {
+  color: var(--color-grey);
+}
+
+.cart-icon {
+  color: var(--color-white);
+  transition: all .3s ease;
+}
+
+.cart-icon:hover,
+.cart-icon:focus {
+  color: var(--color-grey);
 }
 
 @media only screen and (min-width: 40em) {
 
   .home-banner-shape-green {
     background-size: contain;
-    height: 48vh;
+    height: 70vh;
+  }
+
+  .home-banner-bg {
+    height: 70vh;
   }
 
   .search-bar {
@@ -55,7 +75,11 @@
   .home-banner-shape-white {
     background-image: url("/images/white-background.svg");
     background-position: right top;
-    background-size: 30%;
+    background-size: 35%;
+  }
+
+  .cart-icon {
+    color: var(--color-black);
   }
 
 }
