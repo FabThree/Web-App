@@ -11,3 +11,15 @@
 .btn:focus {
   color: var(--color-secondary);
 }
+
+.back-button {
+  text-decoration: none;
+}
+
+.back-button:hover .back-arrow {
+  transform: translateX(-.5em);
+}
+
+.back-arrow {
+  transition: all .3s ease;
+}
