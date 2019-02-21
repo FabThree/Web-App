@@ -12,17 +12,25 @@
   width: 55%;
 }
 
-.home-banner-shape-green {
+.banner-shape-green {
   background-image: url("/images/green-background.svg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 60vh;
 }
 
-.home-banner-shape-white {
+.banner-shape-white {
   background-image: url("");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.banner-shape-white-2 {
+  background-image: url("/images/white-background-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 100vh;
 }
 
 .home-banner-bg {
@@ -30,6 +38,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 60vh;
+}
+
+.restaurant-banner-bg {
+  background-image: url("/images/indian-dish-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top top;
+  height: 80vh;
 }
 
 .icon-logo {
@@ -53,14 +69,18 @@
   color: var(--color-grey);
 }
 
+.border-bottom {
+  border-bottom: 1px solid var(--color-black);
+}
+
+.push-restaurant-text {
+  margin-top: 13rem;
+}
+
 @media only screen and (min-width: 40em) {
 
-  .home-banner-shape-green {
+  .banner-shape-green {
     background-size: contain;
-    height: 70vh;
-  }
-
-  .home-banner-bg {
     height: 70vh;
   }
 
@@ -72,11 +92,19 @@
     height: 65vh;
   }
 
+  .restaurant-banner-bg {
+    height: 65vh;
+  }
+
+  .banner-shape-white-2 {
+    height: 120vh;
+  }
+
 }
 
 @media only screen and (min-width: 70em) {
 
-  .home-banner-shape-white {
+  .banner-shape-white {
     background-image: url("/images/white-background.svg");
     background-position: right top;
     background-size: 35%;
@@ -84,6 +112,19 @@
 
   .cart-icon {
     color: var(--color-black);
+  }
+
+  .restaurant-banner-bg {
+    height: 79vh;
+  }
+
+  .banner-shape-white-2 {
+    background-size: contain;
+    height: 80vh;
+  }
+
+  .push-restaurant-text {
+    margin-top: 10rem;
   }
 
 }
