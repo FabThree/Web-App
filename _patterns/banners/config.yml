@@ -1,0 +1,7 @@
+patterns:
+  restaurant-banner:
+    description: This banner is present on an individual restaurant page. It features the name of the restaurant, brief introduction, characteristics like cost and diet support, and the delivery information.
+  home-banner:
+    description: This banner is used on the home page. It welcomes the user by their name and enables the user to begin their search.
+  account-banner:
+    description: This banner is used on the account page. It is very simple and greets the user.
