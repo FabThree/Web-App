@@ -12,36 +12,76 @@
   width: 55%;
 }
 
-.home-banner-shape-green {
+.banner-shape-green {
   background-image: url("/images/green-background.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 60vh;
 }
 
-.home-banner-shape-white {
+.banner-shape-white {
   background-image: url("");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.banner-shape-white-2 {
+  background-image: url("/images/white-background-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 100vh;
 }
 
 .home-banner-bg {
   background-image: url("/images/pizza.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 60vh;
+}
+
+.restaurant-banner-bg {
+  background-image: url("/images/indian-dish-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top top;
+  height: 80vh;
 }
 
 .icon-logo {
   width: 128px;
   height: 27px;
+  transition: all .3s ease;
+}
+
+.icon-logo:hover,
+.icon-logo:focus {
+  color: var(--color-grey);
+}
+
+.cart-icon {
+  color: var(--color-white);
+  transition: all .3s ease;
+}
+
+.cart-icon:hover,
+.cart-icon:focus {
+  color: var(--color-grey);
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--color-black);
+}
+
+.push-restaurant-text {
+  margin-top: 13rem;
 }
 
 @media only screen and (min-width: 40em) {
 
-  .home-banner-shape-green {
+  .banner-shape-green {
     background-size: contain;
-    height: 68vh;
+    height: 70vh;
   }
 
   .search-bar {
@@ -52,14 +92,39 @@
     height: 65vh;
   }
 
+  .restaurant-banner-bg {
+    height: 65vh;
+  }
+
+  .banner-shape-white-2 {
+    height: 120vh;
+  }
+
 }
 
 @media only screen and (min-width: 70em) {
 
-  .home-banner-shape-white {
+  .banner-shape-white {
     background-image: url("/images/white-background.svg");
     background-position: right top;
-    background-size: 30%;
+    background-size: 35%;
+  }
+
+  .cart-icon {
+    color: var(--color-black);
+  }
+
+  .restaurant-banner-bg {
+    height: 79vh;
+  }
+
+  .banner-shape-white-2 {
+    background-size: contain;
+    height: 80vh;
+  }
+
+  .push-restaurant-text {
+    margin-top: 10rem;
   }
 
 }
