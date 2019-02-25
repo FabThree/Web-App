@@ -1,0 +1,4 @@
+patterns:
+  yellow-nav-bar:
+    title: Navigation bar
+    description: The yellow nav bar scrolls horizontally and changes based on where you are in the site. On the home page, it suggests different cuisines and moods. In a restaurants page, it lists the main categories on their menu.
