@@ -1,0 +1,35 @@
+.yellow-nav {
+  background-color: var(--color-secondary);
+  position: sticky;
+}
+
+.yellow-nav a {
+  text-decoration: none;
+  color: var(--color-black);
+  position: relative;
+}
+
+.yellow-nav a:hover {
+  color: var(--color-white);
+}
+
+.yellow-nav a.active {
+  color: var(--color-white);
+}
+
+.yellow-nav a.active:after {
+  display: none;
+}
+
+@media only screen and (min-width: 46em) {
+
+  .yellow-nav a.active:after {
+    content: "•";
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 85%;
+  }
+
+}
