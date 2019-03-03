@@ -2,7 +2,7 @@ patterns:
   search:
     padding: 2em
     description: This button is to be used with the search bar input.
-  back:
+  back-button:
     padding: 2em
     description: This button should be used inside pages to go back.
   add-to-cart:
