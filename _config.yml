@@ -4,18 +4,18 @@ theme: jekyll_patternbot
 patternbot:
   title: "Honeybird"
   description: |
-    Description of company.
+    Honeybird is a simple yet functional app intended to create a memorable experience with the combination of food and delivery. It creates a bond between the restaurant, the deliverer, and the consumer. The name Honeybird is inspired by the quick nature and the diet of the beautiful hummingbird. Two birds seen facing away from each other can be seen in our logo.
   font_url: "https://use.typekit.net/kbu1taj.css"
   colors:
     background: "--color-light-grey"
   rationales:
     typefaces.primary: |
-      Brandon Grotesque was selected because
+      Brandon Grotesque was selected because the rounded elements on the letters give a more inviting and friendly feel.
     typefaces.secondary: |
       Courier is only to be used for secondary information like labels, descriptions and time.
     colors.primary: |
-      The primary green colour was selected because
+      The primary green colour was selected because it gives a natural, uplifting and creative feel.
     colors.secondary: |
-      The secondary yellow colour was selected because
+      The secondary yellow colour was selected because as a complementary colour to our green, it helps secondary elements pop on the screen to help the user pick what to do next.
     colors.accent: |
-      The red accent colour was selected because
+      The red accent colour was selected because it can easily stand out to deliver small yet necessary information and buttons.

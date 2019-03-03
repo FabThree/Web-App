@@ -1,0 +1,9 @@
+patterns:
+  menu-item-card:
+    title: Menu Items
+    padding: 2em
+    description: This card should be used inside restaurant pages to list individual menu items.
+  restaurant-card:
+    title: Restaurants
+    padding: 2em
+    description: This card should be used on the home and search page to list each restaurant.
