@@ -20,7 +20,7 @@
 }
 
 .banner-shape-white {
-  background-image: url("");
+  background-image: none;
   background-size: contain;
   background-repeat: no-repeat;
 }

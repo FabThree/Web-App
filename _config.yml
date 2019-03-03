@@ -10,7 +10,7 @@ patternbot:
     background: "--color-light-grey"
   rationales:
     typefaces.primary: |
-      Brandon Grotesque was selected because
+      Brandon Grotesque was selected because the rounded elements on the letters give a more inviting and friendly feel.
     typefaces.secondary: |
       Courier is only to be used for secondary information like labels, descriptions and time.
     colors.primary: |
