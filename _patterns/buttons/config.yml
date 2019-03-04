@@ -18,3 +18,6 @@ patterns:
   order-details:
     padding: 2em
     description: This button is used to view the details of a purchased order.
+  honeybird:
+    padding: 2em
+    description: This button will lead the user back to the homepage.
