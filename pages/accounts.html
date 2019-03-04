@@ -26,27 +26,27 @@
 
         <div class="grid">
           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-            <div class="push-r">
+            <div class="push-r push">
               {% pattern forms/text-form label="First Name" placeholder="Alex" forid="fname" formtype="text" %}
             </div>
-            <div class="push-r">
+            <div class="push-r push">
               {% pattern forms/text-form label="Last Name" placeholder="Bloomberg" forid="lname" formtype="text" %}
             </div>
-            <div class="push-r">
+            <div class="push-r push">
               {% pattern forms/text-form label="Email" placeholder="alex.b@gmail.com" forid="email" formtype="text" %}
             </div>
-            <div class="push-r">
+            <div class="push-r push">
               {% pattern forms/text-form label="Phone Number" placeholder="(+1) 613 784 6974" forid="phone" formtype="text" %}
             </div>
           </div>
           <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-            <div>
+            <div class="push">
               {% pattern forms/text-form label="Current Password" forid="oldpass" formtype="password" %}
             </div>
-            <div>
+            <div class="push">
               {% pattern forms/text-form label="New Password" forid="newpass" formtype="password" %}
             </div>
-            <div class="push">
+            <div class="push-2">
               {% pattern forms/text-form label="New Password" forid="newpass2" formtype="password" %}
             </div>
             <a class="btn uppercase gutter font-primary" href="#">Save Changes</a>
