@@ -8,6 +8,10 @@ patterns:
   add-to-cart:
     padding: 2em
     description: This button is used with each individual menu item.
+    fields:
+      - name: price
+        type: string
+        example: "29.95"
   order-again:
     padding: 2em
     description: This button is for users who wish to re-order a previous purchase.
