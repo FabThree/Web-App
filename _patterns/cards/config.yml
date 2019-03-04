@@ -3,6 +3,22 @@ patterns:
     title: Menu Items
     padding: 2em
     description: This card should be used inside restaurant pages to list individual menu items.
+    fields:
+      - name: menuitem
+        type: string
+        example: "Butter Chicken"
+      - name: menuitemdescription
+        type: string
+        example: "Tandoori chicken cooked in Indian spices with tomatoes, butter, and cream sauce."
+      - name: cuisine
+        type: string
+        example: "Halal · Gluten Free"
+      - name: price
+        type: string
+        example: "29.95"
+      - name: photo
+        type: url
+        example: "/images/butter-chicken.jpg"
   restaurant-card:
     title: Restaurants
     padding: 2em

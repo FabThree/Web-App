@@ -16,7 +16,7 @@
   overflow: hidden;
   background-size: cover;
   background-position: center;
-  background-image: url("https://via.placeholder.com/100x100");
+  background-image: none;
 }
 
 .card-btn {
