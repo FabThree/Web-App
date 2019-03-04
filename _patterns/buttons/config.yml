@@ -8,3 +8,9 @@ patterns:
   add-to-cart:
     padding: 2em
     description: This button is used with each individual menu item.
+  order-again:
+    padding: 2em
+    description: This button is for users who wish to re-order a previous purchase.
+  order-details:
+    padding: 2em
+    description: This button is used to view the details of a purchased order.
