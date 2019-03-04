@@ -1,0 +1,96 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Honeybird</title>
+  <link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+
+  <h1>Honeybird</h1>
+
+  <div class="grid island">
+    <form class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-2-3">
+      <div class="card island push-r">
+        <h4>Account Information</h4>
+        <div>
+          <img class="profile-icon push-right ib valign-middle" src="/images/janelle.jpg" />
+
+          <a class="ib valign-middle" href="#">Edit Photo</a>
+        </div>
+
+        <div class="grid">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <div class="push-r">
+              {% pattern forms/text-form label="First Name" placeholder="Alex" forid="fname" formtype="text" %}
+            </div>
+            <div class="push-r">
+              {% pattern forms/text-form label="Last Name" placeholder="Bloomberg" forid="lname" formtype="text" %}
+            </div>
+            <div class="push-r">
+              {% pattern forms/text-form label="Email" placeholder="alex.b@gmail.com" forid="email" formtype="text" %}
+            </div>
+            <div class="push-r">
+              {% pattern forms/text-form label="Phone Number" placeholder="(+1) 613 784 6974" forid="phone" formtype="text" %}
+            </div>
+          </div>
+          <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+            <div>
+              {% pattern forms/text-form label="Current Password" forid="oldpass" formtype="password" %}
+            </div>
+            <div>
+              {% pattern forms/text-form label="New Password" forid="newpass" formtype="password" %}
+            </div>
+            <div class="push">
+              {% pattern forms/text-form label="New Password" forid="newpass2" formtype="password" %}
+            </div>
+            <a class="btn uppercase gutter font-primary" href="#">Save Changes</a>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3">
+      <div class="card island gutter">
+        <h4>Payment Information</h4>
+
+        {% pattern cards/payment %}
+
+        <a href="#" class="cc island add-cc">
+          <img src="/images/add.png" />
+          <span>Add Payment Method</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="island">
+    <div class="card island">
+      <h4>Orders</h4>
+
+      <ul class="list-group-inline">
+        <li><a class="active" href="#">Open Orders</a></li>
+        <li><a href="#">Past Orders</a></li>
+      </ul>
+
+      <div class="order-card">
+        <span class="order-date">Delivered December 27, 2018</span>
+        <span class="order-details">
+          <strong class="push-r">Backyard Grill</strong>
+          <span>1 Homemade Gyros Plate, 1 Polish Sausage</span>
+        </span>
+        <span class="order-actions">
+          <a class="btn uppercase gutter font-primary" href="#">Order Again</a>
+          <a href="#">Order Details</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

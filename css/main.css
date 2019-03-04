@@ -38,3 +38,76 @@
 .drop-shadow {
   box-shadow: 5px 5px 10px -1px rgba(0,0,0,0.03);
 }
+
+.profile-icon {
+  width: 4rem;
+}
+
+.cc {
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-grey);
+  background: var(--color-light-grey);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  height: 10rem;
+}
+
+.add-cc {
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.cc-details {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 100%;
+}
+
+.order-card {
+  border: 1px solid var(--color-grey);
+  background: var(--color-light-grey);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+
+.order-date {
+  flex-shrink: 0;
+  flex-basis: 100%;
+  font-family: monospace;
+}
+
+.customize-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.56);
+  z-index: 2;
+}
+
+.customize-modal {
+  position: fixed;
+  z-index: 3;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30rem;
+  background: white;
+}
+
+.customize-modal .btn {
+  display: block;
+  text-align: center;
+  background: var(--color-primary);
+  border: 0;
+}
