@@ -24,6 +24,21 @@ patterns:
       - name: deliveryfee
         type: string
         example: "$2.99"
+      - name: star1
+        type: url
+        example: "/images/icons.svg#star"
+      - name: star2
+        type: url
+        example: "/images/icons.svg#star"
+      - name: star3
+        type: url
+        example: "/images/icons.svg#star"
+      - name: star4
+        type: url
+        example: "/images/icons.svg#star"
+      - name: star5
+        type: url
+        example: "/images/icons.svg#half-star"
   home-banner:
     description: This banner is used on the home page. It welcomes the user by their name and enables the user to begin their search.
   account-banner:
