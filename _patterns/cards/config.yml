@@ -7,3 +7,6 @@ patterns:
     title: Restaurants
     padding: 2em
     description: This card should be used on the home and search page to list each restaurant.
+  order:
+    padding: 2em
+    description: This card is used to list open and previous orders on the account page.

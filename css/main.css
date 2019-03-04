@@ -19,6 +19,10 @@
   font-family: var(--font-secondary);
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .color-accent {
   color: var(--color-accent);
 }
