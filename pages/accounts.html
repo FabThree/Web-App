@@ -26,32 +26,28 @@
 
         <div class="grid">
           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-            {% pattern forms/text-form label="First Name" %}
             <div class="push-r">
-              <label class="push-1-4 kilo gutter-1-2" for="lname">Last Name</label>
-              <input type="text" id="lname" placeholder='Bloomberg'>
+              {% pattern forms/text-form label="First Name" placeholder="Alex" forid="fname" formtype="text" %}
             </div>
             <div class="push-r">
-              <label class="push-1-4 kilo gutter-1-2" for="email">Email</label>
-              <input type="text" id="email" placeholder='alex.b@gmail.com'>
+              {% pattern forms/text-form label="Last Name" placeholder="Bloomberg" forid="lname" formtype="text" %}
             </div>
             <div class="push-r">
-              <label class="push-1-4 kilo gutter-1-2" for="phone">Phone Number</label>
-              <input type="text" id="phone" placeholder='(+1) 613 784 6974'>
+              {% pattern forms/text-form label="Email" placeholder="alex.b@gmail.com" forid="email" formtype="text" %}
+            </div>
+            <div class="push-r">
+              {% pattern forms/text-form label="Phone Number" placeholder="(+1) 613 784 6974" forid="phone" formtype="text" %}
             </div>
           </div>
           <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
             <div>
-              <label class="push-1-4 kilo gutter-1-2" for="oldpass">Current Password</label>
-              <input type="password" id="oldpass">
+              {% pattern forms/text-form label="Current Password" forid="oldpass" formtype="password" %}
             </div>
             <div>
-              <label class="push-1-4 kilo gutter-1-2" for="newpass">New Password</label>
-              <input type="password" id="newpass">
+              {% pattern forms/text-form label="New Password" forid="newpass" formtype="password" %}
             </div>
-            <div>
-              <label class="push-1-4 kilo gutter-1-2" for="newpass2">Confirm Password</label>
-              <input type="password" id="newpass2">
+            <div class="push">
+              {% pattern forms/text-form label="New Password" forid="newpass2" formtype="password" %}
             </div>
             <a class="btn uppercase gutter font-primary" href="#">Save Changes</a>
           </div>
