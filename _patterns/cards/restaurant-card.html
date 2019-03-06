@@ -1,17 +1,31 @@
 <div class="card pad-b">
   <div class="push">
-    <img class="img-flex" src="https://via.placeholder.com/350x150" alt="" role="presentation" itemprop="image">
+    <img class="img-flex" src="{{restaurants.image | default: 'https://via.placeholder.com/350x150'}}" alt="" role="presentation" itemprop="image">
   </div>
 
-  <div class="gutter-2">
-    <p class="micro uppercase font-secondary push-1-4"><span>$$</span> · <span>Chinese</span> · <span>Asian Fusion</span></p>
-    <h3 class="uppercase push-1-2">Dumpling House</h3>
+  <div class="gutter">
+    <p class="micro uppercase font-secondary push-1-4 pad-t"><span class="micro">{{restaurants.expensive | default: '$$'}}</span> · <span class="micro">{{restaurants.cuisine[0] | default: 'Chinese'}}</span> · <span class="micro">{{restaurants.cuisine[1] | default: 'Asian Fusion'}}</span> · <span class="micro">{{restaurants.cuisine[2] | default: 'Comfort'}}</span></p>
+    <h3 class="uppercase push-1-2 mega">{{restaurants.restaurantName | default: 'Dumpling House'}}</h3>
 
     <div class="grid">
       <div class="unit xs-2-3">
-        <span class="micro font-secondary color-accent icon-label">25 min  · </span>
-        <i class="icon i-1 color-accent"><svg><use xlink:href="/images/icons.svg#star"></use></svg></i>
-        <i class="icon i-1 color-accent"><svg><use xlink:href="/images/icons.svg#half-star"></use></svg></i>
+        <span class="micro font-secondary color-accent icon-label">{{restaurants.deliveryTime | default: '25 min'}}  · </span>
+        {% if restaurants.stars[0] %}
+          <i class="icon i-18 color-accent"><svg><use xlink:href="/images/icons.svg#{{restaurants.stars[0] | default: 'star'}}"></use></svg></i>
+        {% endif %}
+        {% if restaurants.stars[1] %}
+          <i class="icon i-18 color-accent"><svg><use xlink:href="/images/icons.svg#{{restaurants.stars[1] | default: 'star'}}"></use></svg></i>
+        {% endif %}
+        {% if restaurants.stars[2] %}
+          <i class="icon i-18 color-accent"><svg><use xlink:href="/images/icons.svg#{{restaurants.stars[2] | default: 'star'}}"></use></svg></i>
+        {% endif %}
+        {% if restaurants.stars[3] %}
+          <i class="icon i-18 color-accent"><svg><use xlink:href="/images/icons.svg#{{restaurants.stars[1] | default: 'star'}}"></use></svg></i>
+        {% endif %}
+        {% if restaurants.stars[4] %}
+          <i class="icon i-18 color-accent"><svg><use xlink:href="/images/icons.svg#{{restaurants.stars[4] | default: 'star'}}"></use></svg></i>
+        {% endif %}
+
       </div>
 
       <div class="unit xs-1-3 color-accent text-right">
