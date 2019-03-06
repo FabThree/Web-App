@@ -28,3 +28,17 @@
   top: 50%;
   right: 5%;
 }
+
+.order-card {
+  background-color: #F8F8F8;
+  border: 1px solid #D5D5D5;
+  border-radius: 6px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .order-buttons {
+    text-align: right;
+  }
+
+}
