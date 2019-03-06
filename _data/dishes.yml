@@ -1,0 +1,12 @@
+- category:
+  - Halal
+  - Gluten Free
+  dishName: Butter chicken
+  description: Our classic chicken bites are given a tasty twist with crisp wontons, fresh cucumber, and sweet chilli sauce.
+  price: $19.95
+- category:
+  - Halal
+  - Gluten Free
+  dishName: Ultimate Fish Tacos
+  description: Crisp fried base on a soft grilled white flour tortilla topped with mozzarella cheese.
+  price: $6.50

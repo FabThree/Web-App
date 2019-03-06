@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Honeybird</title>
-</head>
-<body>
+---
+layout: default
+---
 
-  <h1>Honeybird</h1>
-
-  <h2>Dev lead's temporary heading</h2>
-
-  <h3>Janelle's fake heading</3>
-
-</body>
-</html>
+{% pattern banners/home-banner %}
+{% pattern nav/yellow-nav-bar %}
+<div class="grid">
+  {% for restaurants in site.data.homepage-restaurants %}
+    <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-2">
+      {% pattern cards/restaurant-card  data=restaurants %}
+    </div>
+  {% endfor %}
+</div>

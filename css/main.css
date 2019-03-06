@@ -6,31 +6,3 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.font-primary {
-  font-family: var(--font-primary);
-}
-
-.font-secondary {
-  font-family: var(--font-secondary);
-}
-
-.color-accent {
-  color: var(--color-accent);
-}
-
-.color-grey {
-  color: var(--color-grey);
-}
-
-.color-white {
-  color: var(--color-white);
-}
-
-.drop-shadow {
-  box-shadow: 5px 5px 10px -1px rgba(0,0,0,0.03);
-}

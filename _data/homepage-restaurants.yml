@@ -1,0 +1,38 @@
+- image: /images/
+  expensive: $$
+  cuisine:
+    - Chinese
+    - Asian Fusion
+  restaurantName: Dumpling House
+  deliveryTime: 25 mins
+  stars:
+    - star
+    - star
+    - half-star
+- image: /images/
+  expensive: $$
+  cuisine:
+    - Sandwiches
+    - Salad
+    - American
+  restaurantName: Newport Restaurant
+  deliveryTime: 30 mins
+  stars:
+    - star
+    - star
+    - star
+    - star
+- image: /images/
+  expensive: $
+  cuisine:
+    - Pizza
+    - Comfort Food
+    - Wings
+  restaurantName: Milano Pizza
+  deliveryTime: 35 mins
+  stars:
+    - star
+    - star
+    - star
+    - star
+    - half-star
