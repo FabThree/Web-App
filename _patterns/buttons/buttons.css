@@ -23,3 +23,10 @@
 .back-arrow {
   transition: all .3s ease;
 }
+
+.btn-dark {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 0;
+  border-color: var(--color-primary);
+}
