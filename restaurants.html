@@ -1,0 +1,47 @@
+---
+layout: default
+---
+{% pattern banners/restaurant-banner %}
+{% pattern nav/foodnav %}
+<div class="grid">
+  <div class="unit xs-1 s-1 m-2-3 l-2-3">
+    <div class="popular-dishes">
+      <h2 class="giga font-primary not-bold gutter-1-2 pad-t push-none">Popular</h2>
+      <div class="grid">
+        {% for dishes in site.data.dishes.popular %}
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-4 unit-content-distribute">
+            {% pattern cards/menu-item-card data=dishes %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="superfood-dishes">
+      <h2 class="giga font-primary not-bold gutter-1-2 pad-t push-none">Superfoods</h2>
+      <div class="grid">
+        {% for dishes in site.data.dishes.superfoods %}
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-4 unit-content-distribute">
+            {% pattern cards/menu-item-card data=dishes %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="starter-dishes">
+      <h2 class="giga font-primary not-bold gutter-1-2 pad-t push-none">Starters</h2>
+      <div class="grid">
+        {% for dishes in site.data.dishes.starters %}
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-4 unit-content-distribute">
+            {% pattern cards/menu-item-card data=dishes %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="unit xs-1 s-1 m-1-3 l-1-3 pad-t gutter-1-2">
+    <!-- Add checkout card -->
+    <h2 class="giga font-primary not-bold push-1-4 ">Checkout</h2>
+    {% pattern cards/restaurant-card %}
+  </div>
+</div>

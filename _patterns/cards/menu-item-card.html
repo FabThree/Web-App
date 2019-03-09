@@ -1,11 +1,13 @@
-<div class="card relative">
+<div class="card relative push">
   <div class="grid">
-    <div class="unit xs-1-4 card-img"></div>
+    <div class="unit xs-1-4 embed embed-3by1">
+      <img class="img-flex embed-item" src="{{dishes.image | default: 'https://via.placeholder.com/600x1200'}}" alt="">
+    </div>
 
-    <div class="unit xs-3-4 gutter-2 pad-b-2 pad-t">
-      <p class="micro font-secondary color-accent push-1-2"><span>Halal</span> · <span>Gluten Free</span></p>
-      <h3 class="push-1-4">Butter Chicken</h3>
-      <p class="font-secondary color-grey push-1-4">Tandoori chicken cooked in Indian spices with tomatoes, butter, and cream sauce.</p>
+    <div class="unit xs-3-4 gutter pad-b-2 pad-t">
+      <p class="micro font-secondary color-accent push-1-2">{%  if dishes.category[0] %}<span class="nano">{{dishes.category[0] | default: 'Halal'}}</span>{% endif %}{%  if dishes.category[0] %} · <span class="nano">{{dishes.category[1] | default: 'Gluten Free'}}</span>{% endif %}</p>
+      <h3 class="push-1-4 mega">{{dishes.dishName | default: 'Butter Chicken'}}</h3>
+      <p class="font-secondary color-grey push-1-4 nano">{{dishes.description | default: 'Tandoori chicken cooked in Indian spices with tomatoes, butter, and cream sauce.'}}</p>
     </div>
   </div>
 
