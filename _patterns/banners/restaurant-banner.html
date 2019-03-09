@@ -4,9 +4,7 @@
       <div class="gutter pad-t">
         <section class="grid grid-top">
           <div class="unit xs-2-3 push-2">
-            <a href="/index">
-              <i class="icon icon-logo color-white"><svg><use xlink:href="/images/icons.svg#logo"></use></svg></i>
-            </a>
+            {% pattern buttons/honeybird %}
           </div>
           <div class="unit xs-1-3 text-right">
             <div class="grid grid-top">
@@ -30,18 +28,18 @@
         </section>
 
         <section class="pad-b">
-          <h1 class="uppercase push-0">Taj Mahal Cuisine</h1>
+          <h1 class="uppercase push-0">{{include.restaurant}}</h1>
           <div class="push">
-            <i class="icon i-16 color-accent"><svg><use xlink:href="/images/icons.svg#star"></use></svg></i>
-            <i class="icon i-16 color-accent"><svg><use xlink:href="/images/icons.svg#star"></use></svg></i>
-            <i class="icon i-16 color-accent"><svg><use xlink:href="/images/icons.svg#star"></use></svg></i>
-            <i class="icon i-16 color-accent"><svg><use xlink:href="/images/icons.svg#star"></use></svg></i>
-            <i class="icon i-16 color-accent"><svg><use xlink:href="/images/icons.svg#half-star"></use></svg></i>
+            <i class="icon i-16 color-accent"><svg><use xlink:href="{{include.star1}}"></use></svg></i>
+            <i class="icon i-16 color-accent"><svg><use xlink:href="{{include.star2}}"></use></svg></i>
+            <i class="icon i-16 color-accent"><svg><use xlink:href="{{include.star3}}"></use></svg></i>
+            <i class="icon i-16 color-accent"><svg><use xlink:href="{{include.star4}}"></use></svg></i>
+            <i class="icon i-16 color-accent"><svg><use xlink:href="{{include.star5}}"></use></svg></i>
           </div>
           <div class="max-length-no-center milli">
-            <p class="font-secondary pad-b border-bottom">Taj Mahal Cuisine offers traditional Indian cuisine. Established in 1997, they have been serving the Ottawa and Glebe community for over 2 decades. Their most popular dishes are the butter chicken and lamb biryani.</p>
-            <p class="font-secondary uppercase">$$ • Indian • Halal • Gluten free • Vegan</p>
-            <p class="font-secondary color-accent">35 min • $2.99 fee</p>
+            <p class="font-secondary pad-b border-bottom">{{include.bio}}</p>
+            <p class="font-secondary uppercase">{{include.pricerange}} • {{include.cuisine}} • {{include.diet}}</p>
+            <p class="font-secondary color-accent">{{include.deliverytime}} • {{include.deliveryfee}} fee</p>
           </div>
         </section>
       </div>

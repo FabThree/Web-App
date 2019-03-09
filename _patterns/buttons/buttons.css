@@ -24,6 +24,17 @@
   transition: all .3s ease;
 }
 
+.icon-logo {
+  width: 128px;
+  height: 27px;
+  transition: all .3s ease;
+}
+
+.icon-logo:hover,
+.icon-logo:focus {
+  color: var(--color-grey);
+}
+
 .btn-dark {
   background-color: var(--color-primary);
   color: var(--color-white);

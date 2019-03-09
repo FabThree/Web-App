@@ -2,6 +2,43 @@ patterns:
   restaurant-banner:
     description: This banner is present on an individual restaurant page. It features the name of the restaurant, brief introduction, characteristics like cost and diet support, and the delivery information.
     height: 1000
+    fields:
+      - name: restaurant
+        type: string
+        example: "Taj Mahal Cuisine"
+      - name: bio
+        type: string
+        example: "Taj Mahal Cuisine offers traditional Indian cuisine. Established in 1997, they have been serving the Ottawa and Glebe community for over 2 decades. Their most popular dishes are the butter chicken and lamb biryani."
+      - name: pricerange
+        type: string
+        example: "$$"
+      - name: cuisine
+        type: string
+        example: "Indian"
+      - name: diet
+        type: string
+        example: "Halal • Gluten free • Vegan"
+      - name: deliverytime
+        type: string
+        example: "35 min"
+      - name: deliveryfee
+        type: string
+        example: "$2.99"
+      - name: star1
+        type: url
+        example: "/images/icons.svg#star"
+      - name: star2
+        type: url
+        example: "/images/icons.svg#star"
+      - name: star3
+        type: url
+        example: "/images/icons.svg#star"
+      - name: star4
+        type: url
+        example: "/images/icons.svg#star"
+      - name: star5
+        type: url
+        example: "/images/icons.svg#half-star"
   home-banner:
     description: This banner is used on the home page. It welcomes the user by their name and enables the user to begin their search.
   account-banner:

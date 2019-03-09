@@ -3,10 +3,54 @@ patterns:
     title: Menu Items
     padding: 2em
     description: This card should be used inside restaurant pages to list individual menu items.
+    fields:
+      - name: menuitem
+        type: string
+        example: "Butter Chicken"
+      - name: menuitemdescription
+        type: string
+        example: "Tandoori chicken cooked in Indian spices with tomatoes, butter, and cream sauce."
+      - name: cuisine
+        type: string
+        example: "Halal · Gluten Free"
+      - name: price
+        type: string
+        example: "29.95"
+      - name: photo
+        type: url
+        example: "/images/butter-chicken.jpg"
   restaurant-card:
     title: Restaurants
     padding: 2em
     description: This card should be used on the home and search page to list each restaurant.
+    fields:
+      - name: photo
+        type: url
+        example: "/images/dumpling-house.jpg"
+      - name: restaurant
+        type: string
+        example: "Dumpling House"
+      - name: pricerange
+        type: string
+        example: "$$"
+      - name: cuisine
+        type: string
+        example: "Chinese · Asian Fusion"
+      - name: deliverytime
+        type: string
+        example: "25 min"
+      - name: star1
+        type: url
+        example: "/images/icons.svg#star"
+      - name: star2
+        type: url
+        example: "/images/icons.svg#star"
+      - name: star3
+        type: url
+        example: "/images/icons.svg#star"
+      - name: star4
+        type: url
+        example: "/images/icons.svg#half-star"
   order:
     padding: 2em
     description: This card is used to list open and previous orders on the account page.
