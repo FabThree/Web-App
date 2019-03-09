@@ -10,15 +10,19 @@ input {
 }
 
 
-
 fieldset {
   position: relative;
   margin-top: 2.5rem;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 legend {
   position: absolute;
   bottom: 100%;
   margin-bottom: 0.25rem;
+}
+
+.large-textbox {
+  border: 1px solid var(--color-grey);
+  border-radius: 4px;
 }

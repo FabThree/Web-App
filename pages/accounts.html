@@ -11,35 +11,33 @@
 
 </head>
 <body>
-
-  <h1>Honeybird</h1>
+  {% pattern banners/account-banner %}
 
   <div class="grid island">
-    <form class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-2-3">
-      <div class="card island push-r">
+    <form class="unit island-padding unit-xs-1 unit-s-1 unit-m-1 unit-l-2-3 pad-sides">
+      <div class="card island">
         <h4>Account Information</h4>
         <div>
-          <img class="profile-icon push-right ib valign-middle" src="/images/janelle.jpg" />
-
+          <img class="profile-icon push push-right ib valign-middle" src="/images/janelle.jpg" />
           <a class="ib valign-middle" href="#">Edit Photo</a>
         </div>
 
         <div class="grid">
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-            <div class="push-r push">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 pad-sides">
+            <div class="push">
               {% pattern forms/text-form label="First Name" placeholder="Alex" forid="fname" formtype="text" %}
             </div>
-            <div class="push-r push">
+            <div class="push">
               {% pattern forms/text-form label="Last Name" placeholder="Bloomberg" forid="lname" formtype="text" %}
             </div>
-            <div class="push-r push">
+            <div class="push">
               {% pattern forms/text-form label="Email" placeholder="alex.b@gmail.com" forid="email" formtype="text" %}
             </div>
-            <div class="push-r push">
+            <div class="push">
               {% pattern forms/text-form label="Phone Number" placeholder="(+1) 613 784 6974" forid="phone" formtype="text" %}
             </div>
           </div>
-          <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+          <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 pad-sides">
             <div class="push">
               {% pattern forms/text-form label="Current Password" forid="oldpass" formtype="password" %}
             </div>
@@ -55,14 +53,14 @@
       </div>
     </form>
 
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3 pad-sides">
       <div class="card island gutter">
         <h4>Payment Information</h4>
 
         {% pattern cards/payment %}
 
         <a href="#" class="cc island add-cc">
-          <img src="/images/add.png" />
+          <img src="/images/big-plus.svg" />
           <span>Add Payment Method</span>
         </a>
       </div>
@@ -77,7 +75,7 @@
         <li><a class="active" href="#">Open Orders</a></li>
         <li><a href="#">Past Orders</a></li>
       </ul>
-
+      {% pattern cards/order %}
       <div class="order-card">
         <span class="order-date">Delivered December 27, 2018</span>
         <span class="order-details">

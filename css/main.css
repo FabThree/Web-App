@@ -111,3 +111,7 @@
   background: var(--color-primary);
   border: 0;
 }
+
+.pad-sides {
+  padding: 0 .5rem;
+}
