@@ -50,4 +50,9 @@ html {
 
 a {
   text-decoration: none;
+  color: var(--color-accent);
+}
+
+a.active {
+  text-decoration: underline;
 }
