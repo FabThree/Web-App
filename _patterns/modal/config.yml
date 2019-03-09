@@ -1,0 +1,9 @@
+patterns:
+  modal:
+    title: Modal
+    padding: 2em
+    description: Modal used to customize order.
+    fields:
+      - name: menuitem
+        type: string
+        example: "Butter Chicken"

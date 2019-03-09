@@ -1,6 +1,10 @@
 permalink: pretty
 theme: jekyll_patternbot
 
+collections:
+  restaurants:
+    output: true
+
 patternbot:
   title: "Honeybird"
   description: |

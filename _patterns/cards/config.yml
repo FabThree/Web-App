@@ -24,33 +24,10 @@ patterns:
     padding: 2em
     description: This card should be used on the home and search page to list each restaurant.
     fields:
-      - name: photo
-        type: url
-        example: "/images/dumpling-house.jpg"
-      - name: restaurant
-        type: string
-        example: "Dumpling House"
-      - name: pricerange
-        type: string
-        example: "$$"
-      - name: cuisine
-        type: string
-        example: "Chinese · Asian Fusion"
-      - name: deliverytime
-        type: string
-        example: "25 min"
-      - name: star1
-        type: url
-        example: "/images/icons.svg#star"
-      - name: star2
-        type: url
-        example: "/images/icons.svg#star"
-      - name: star3
-        type: url
-        example: "/images/icons.svg#star"
-      - name: star4
-        type: url
-        example: "/images/icons.svg#half-star"
+      - name: data
+        data:
+          source: site.restaurants.milanos
+
   order:
     padding: 2em
     description: This card is used to list open and previous orders on the account page.

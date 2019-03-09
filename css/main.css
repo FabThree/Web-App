@@ -6,3 +6,63 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+body {
+  padding-bottom: 1px;
+}
+
+body.account {
+  background-image: url('../images/green-bg.svg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.profile-icon {
+  width: 4rem;
+}
+
+.cc {
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-grey);
+  background: var(--color-light-grey);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  height: 10rem;
+}
+
+.add-cc {
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.cc-details {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 100%;
+}
+
+.order-card {
+  border: 1px solid var(--color-grey);
+  background: var(--color-light-grey);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+
+.order-date {
+  flex-shrink: 0;
+  flex-basis: 100%;
+  font-family: monospace;
+}
+
+.pad-sides {
+  padding: 0 .5rem;
+}

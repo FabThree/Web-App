@@ -1,31 +1,11 @@
-<section class="order-card">
-  <div class="island-1-2 gutter">
-    <div>
-      <p class="font-secondary color-grey micro push-1-2">Delivered December 27, 2018</p>
-    </div>
-
-    <div class="grid grid-middle">
-      <div class="unit xs-1 s-1 m-1 l-1-2">
-        <div class="grid grid-middle">
-          <div class="unit xs-1-2">
-            <p class="font-bold">Backyard Grill</p>
-          </div>
-          <div class="unit xs-1-2">
-            <p class="color-grey">1 Homemade Gyros Plate, 1 Polish Sausage</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="unit xs-1 s-1 m-1 l-1-2 order-buttons">
-        <div class="grid grid-middle">
-          <div class="unit xs-1-2 push">
-            {% pattern buttons/order-again %}
-          </div>
-          <div class="unit xs-1-2 push">
-            {% pattern buttons/order-details %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="order-card push">
+  <span class="order-date">Delivered December 27, 2018</span>
+  <span class="order-details">
+    <strong class="push-r">{{ include.restaurant }}</strong>
+    <span>{{ include.order }}</span>
+  </span>
+  <span class="order-actions">
+    {% pattern buttons/order-again %}
+    {% pattern buttons/order-details %}
+  </span>
+</div>

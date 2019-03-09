@@ -29,7 +29,7 @@
   background-image: url("/images/white-background-2.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: left bottom;
   height: 100vh;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .push-restaurant-text {
-  margin-top: 13rem;
+  margin-top: 15rem;
 }
 
 @media only screen and (min-width: 40em) {
@@ -109,11 +109,11 @@
 
   .banner-shape-white-2 {
     background-size: contain;
-    height: 80vh;
+    height: 87vh;
   }
 
   .push-restaurant-text {
-    margin-top: 10rem;
+    margin-top: 13rem;
   }
 
 }
