@@ -1,61 +1,63 @@
 favourites:
   - image: /images/pizza.jpg
-    expensive: $$
+    pricerange: $$
     cuisine:
       - Chinese
       - Asian Fusion
-    restaurantName: Dumpling House
-    deliveryTime: 25 mins
+    name: Dumpling House
+    deliverytime: 25 mins
     stars:
       - star
       - star
       - half-star
   - image: /images/
-    expensive: $$
+    pricerange: $$
     cuisine:
       - Sandwiches
       - Salad
       - American
-    restaurantName: Newport Restaurant
-    deliveryTime: 30 mins
+    name: Newport Restaurant
+    deliverytime: 30 mins
     stars:
       - star
       - star
       - star
       - star
   - image: /images/
-    expensive: $
+    pricerange: $
     cuisine:
       - Pizza
       - Comfort Food
       - Wings
-    restaurantName: Milano Pizza
-    deliveryTime: 35 mins
+    name: Milano Pizza
+    deliverytime: 35 mins
     stars:
       - star
       - star
       - star
       - star
       - half-star
-  - image: /images/
-    expensive: $$$
+  - image: /images/pizza.jpg
+    pricerange: $$$
     cuisine:
       - Sandwiches
       - Salads
       - Burgers
-    restaurantName: Milestones
-    deliveryTime: 50 mins
+    name: Milestones
+    bio: Familiar dishes with inspiring new flavours. Made with fresh ingredients everyday, our chefs are passionate about giving you a tantalizingly tasteful meal, from appetizer to dessert.
+    deliverytime: 50 mins
+    deliveryfee: $2.99
     stars:
       - star
       - star
       - star
   - image: /images/
-    expensive: $$$
+    pricerange: $$$
     cuisine:
       - Burgers
       - Italian
-    restaurantName: Two Six Ate
-    deliveryTime: 40 mins
+    name: Two Six Ate
+    deliverytime: 40 mins
     stars:
       - star
       - star
@@ -63,12 +65,12 @@ favourites:
       - star
       - half-star
   - image: /images/
-    expensive: $$
+    pricerange: $$
     cuisine:
       - Tacos
       - Mexican
-    restaurantName: Tacolot
-    deliveryTime: 35 mins
+    name: Tacolot
+    deliverytime: 35 mins
     stars:
       - star
       - star
@@ -78,13 +80,13 @@ favourites:
 
 quick:
   - image: /images/
-    expensive: $$
+    pricerange: $$
     cuisine:
       - Indian
       - Halal
       - Vegan Options
-    restaurantName: Taj Mahal Cuisine
-    deliveryTime: 25 mins
+    name: Taj Mahal Cuisine
+    deliverytime: 25 mins
     stars:
       - star
       - star
@@ -92,12 +94,12 @@ quick:
       - star
       - half-star
   - image: /images/
-    expensive: $$$
+    pricerange: $$$
     cuisine:
       - Burgers
       - Italian
-    restaurantName: Pho Van Van
-    deliveryTime: 20 mins
+    name: Pho Van Van
+    deliverytime: 20 mins
     stars:
       - star
       - star
@@ -105,24 +107,24 @@ quick:
       - star
       - half-star
   - image: /images/
-    expensive: $$
+    pricerange: $$
     cuisine:
       - Tacos
       - Mexican
-    restaurantName: Pietro's Corner
-    deliveryTime: 15 mins
+    name: Pietro's Corner
+    deliverytime: 15 mins
     stars:
       - star
       - star
       - star
       - star
   - image: /images/
-    expensive: $$
+    pricerange: $$
     cuisine:
       - Japanese
       - Sushi
-    restaurantName: Hanabi Japanese Cuisine
-    deliveryTime: 25 mins
+    name: Hanabi Japanese Cuisine
+    deliverytime: 25 mins
     stars:
       - star
       - star
@@ -130,24 +132,24 @@ quick:
       - star
       - half-star
   - image: /images/
-    expensive: $$
+    pricerange: $$
     cuisine:
       - Middle Eastern
       - Lebanese
-    restaurantName: Istanbouli Shawarma House
-    deliveryTime: 25 mins
+    name: Istanbouli Shawarma House
+    deliverytime: 25 mins
     stars:
       - star
       - star
       - star
       - star
   - image: /images/
-    expensive: $$
+    pricerange: $$
     cuisine:
       - Cupcakes
       - Desserts
-    restaurantName: The Cupcake Lounge
-    deliveryTime: 15 mins
+    name: The Cupcake Lounge
+    deliverytime: 15 mins
     stars:
       - star
       - star
@@ -155,24 +157,24 @@ quick:
       - star
       - half-star
   - image: /images/
-    expensive: $$$
+    pricerange: $$$
     cuisine:
       - Sandwiches
       - Salads
       - Burgers
-    restaurantName: Milestones
-    deliveryTime: 50 mins
+    name: Milestones
+    deliverytime: 50 mins
     stars:
       - star
       - star
       - star
   - image: /images/
-    expensive: $$$
+    pricerange: $$$
     cuisine:
       - Burgers
       - Italian
-    restaurantName: Two Six Ate
-    deliveryTime: 40 mins
+    name: Two Six Ate
+    deliverytime: 40 mins
     stars:
       - star
       - star
@@ -180,12 +182,12 @@ quick:
       - star
       - half-star
   - image: /images/
-    expensive: $$
+    pricerange: $$
     cuisine:
       - Tacos
       - Mexican
-    restaurantName: Tacolot
-    deliveryTime: 35 mins
+    name: Tacolot
+    deliverytime: 35 mins
     stars:
       - star
       - star
