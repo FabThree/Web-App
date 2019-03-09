@@ -66,17 +66,9 @@ layout: default
       <li><a class="active" href="#">Open Orders</a></li>
       <li><a href="#">Past Orders</a></li>
     </ul>
-    {% pattern cards/order %}
-    <div class="order-card">
-      <span class="order-date">Delivered December 27, 2018</span>
-      <span class="order-details">
-        <strong class="push-r">Backyard Grill</strong>
-        <span>1 Homemade Gyros Plate, 1 Polish Sausage</span>
-      </span>
-      <span class="order-actions">
-        <a class="btn uppercase gutter font-primary" href="#">Order Again</a>
-        <a href="#">Order Details</a>
-      </span>
-    </div>
+
+    {% pattern cards/order restaurant="Backyard Grill" order="1 Homemade Gyros Plate, 1 Polish Sausage" %}
+    {% pattern cards/order restaurant="Backyard Grill" order="1 Homemade Gyros Plate, 1 Polish Sausage" %}
+    {% pattern cards/order restaurant="Backyard Grill" order="1 Homemade Gyros Plate, 1 Polish Sausage" %}
   </div>
 </div>
