@@ -37,7 +37,7 @@
   background-image: url("/images/pizza.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 87vh;
 }
 
 .restaurant-banner-bg {
@@ -45,7 +45,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top top;
-  height: 80vh;
+  height: 89vh;
 }
 
 .cart-icon {
@@ -78,11 +78,11 @@
   }
 
   .home-banner-bg {
-    height: 65vh;
+    height: 70vh;
   }
 
   .restaurant-banner-bg {
-    height: 65vh;
+    height: 87vh;
   }
 
   .banner-shape-white-2 {
@@ -104,7 +104,7 @@
   }
 
   .restaurant-banner-bg {
-    height: 79vh;
+    height: 87vh;
   }
 
   .banner-shape-white-2 {

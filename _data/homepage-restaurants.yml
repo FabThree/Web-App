@@ -1,0 +1,194 @@
+favourites:
+  - image: /images/pizza.jpg
+    expensive: $$
+    cuisine:
+      - Chinese
+      - Asian Fusion
+    restaurantName: Dumpling House
+    deliveryTime: 25 mins
+    stars:
+      - star
+      - star
+      - half-star
+  - image: /images/
+    expensive: $$
+    cuisine:
+      - Sandwiches
+      - Salad
+      - American
+    restaurantName: Newport Restaurant
+    deliveryTime: 30 mins
+    stars:
+      - star
+      - star
+      - star
+      - star
+  - image: /images/
+    expensive: $
+    cuisine:
+      - Pizza
+      - Comfort Food
+      - Wings
+    restaurantName: Milano Pizza
+    deliveryTime: 35 mins
+    stars:
+      - star
+      - star
+      - star
+      - star
+      - half-star
+  - image: /images/
+    expensive: $$$
+    cuisine:
+      - Sandwiches
+      - Salads
+      - Burgers
+    restaurantName: Milestones
+    deliveryTime: 50 mins
+    stars:
+      - star
+      - star
+      - star
+  - image: /images/
+    expensive: $$$
+    cuisine:
+      - Burgers
+      - Italian
+    restaurantName: Two Six Ate
+    deliveryTime: 40 mins
+    stars:
+      - star
+      - star
+      - star
+      - star
+      - half-star
+  - image: /images/
+    expensive: $$
+    cuisine:
+      - Tacos
+      - Mexican
+    restaurantName: Tacolot
+    deliveryTime: 35 mins
+    stars:
+      - star
+      - star
+      - star
+      - star
+      - half-star
+
+quick:
+  - image: /images/
+    expensive: $$
+    cuisine:
+      - Indian
+      - Halal
+      - Vegan Options
+    restaurantName: Taj Mahal Cuisine
+    deliveryTime: 25 mins
+    stars:
+      - star
+      - star
+      - star
+      - star
+      - half-star
+  - image: /images/
+    expensive: $$$
+    cuisine:
+      - Burgers
+      - Italian
+    restaurantName: Pho Van Van
+    deliveryTime: 20 mins
+    stars:
+      - star
+      - star
+      - star
+      - star
+      - half-star
+  - image: /images/
+    expensive: $$
+    cuisine:
+      - Tacos
+      - Mexican
+    restaurantName: Pietro's Corner
+    deliveryTime: 15 mins
+    stars:
+      - star
+      - star
+      - star
+      - star
+  - image: /images/
+    expensive: $$
+    cuisine:
+      - Japanese
+      - Sushi
+    restaurantName: Hanabi Japanese Cuisine
+    deliveryTime: 25 mins
+    stars:
+      - star
+      - star
+      - star
+      - star
+      - half-star
+  - image: /images/
+    expensive: $$
+    cuisine:
+      - Middle Eastern
+      - Lebanese
+    restaurantName: Istanbouli Shawarma House
+    deliveryTime: 25 mins
+    stars:
+      - star
+      - star
+      - star
+      - star
+  - image: /images/
+    expensive: $$
+    cuisine:
+      - Cupcakes
+      - Desserts
+    restaurantName: The Cupcake Lounge
+    deliveryTime: 15 mins
+    stars:
+      - star
+      - star
+      - star
+      - star
+      - half-star
+  - image: /images/
+    expensive: $$$
+    cuisine:
+      - Sandwiches
+      - Salads
+      - Burgers
+    restaurantName: Milestones
+    deliveryTime: 50 mins
+    stars:
+      - star
+      - star
+      - star
+  - image: /images/
+    expensive: $$$
+    cuisine:
+      - Burgers
+      - Italian
+    restaurantName: Two Six Ate
+    deliveryTime: 40 mins
+    stars:
+      - star
+      - star
+      - star
+      - star
+      - half-star
+  - image: /images/
+    expensive: $$
+    cuisine:
+      - Tacos
+      - Mexican
+    restaurantName: Tacolot
+    deliveryTime: 35 mins
+    stars:
+      - star
+      - star
+      - star
+      - star
+      - half-star
