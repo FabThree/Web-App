@@ -26,7 +26,7 @@ patterns:
     fields:
       - name: data
         data:
-          source: site.data.restaurants.favourites[0]
+          source: site.restaurants.milanos
 
   order:
     padding: 2em
