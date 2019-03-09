@@ -63,33 +63,6 @@ body.account {
   font-family: monospace;
 }
 
-.customize-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.56);
-  z-index: 2;
-}
-
-.customize-modal {
-  position: fixed;
-  z-index: 3;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 30rem;
-  background: white;
-}
-
-.customize-modal .btn {
-  display: block;
-  text-align: center;
-  background: var(--color-primary);
-  border: 0;
-}
-
 .pad-sides {
   padding: 0 .5rem;
 }
