@@ -1,11 +1,12 @@
 ---
 layout: default
+type: account
 ---
 
 {% pattern banners/account-banner %}
 
-<div class="grid island">
-  <form class="unit island-padding unit-xs-1 unit-s-1 unit-m-1 unit-l-2-3 pad-sides">
+<div class="grid gutter">
+  <form class="unit island-padding unit-xs-1 unit-s-1 unit-m-1 unit-l-2-3 pad-sides push">
     <div class="card island">
       <h4>Account Information</h4>
       <div>
@@ -59,16 +60,18 @@ layout: default
 </div>
 
 <div class="island">
-  <div class="card island">
-    <h4>Orders</h4>
+  <div class="pad-sides">
+    <div class="card island">
+      <h4>Orders</h4>
 
-    <ul class="list-group-inline">
-      <li><a class="active" href="#">Open Orders</a></li>
-      <li><a href="#">Past Orders</a></li>
-    </ul>
+      <ul class="list-group-inline">
+        <li><a class="active push-r" href="#">Open Orders</a></li>
+        <li><a href="#">Past Orders</a></li>
+      </ul>
 
-    {% pattern cards/order restaurant="Backyard Grill" order="1 Homemade Gyros Plate, 1 Polish Sausage" %}
-    {% pattern cards/order restaurant="Backyard Grill" order="1 Homemade Gyros Plate, 1 Polish Sausage" %}
-    {% pattern cards/order restaurant="Backyard Grill" order="1 Homemade Gyros Plate, 1 Polish Sausage" %}
+      {% pattern cards/order restaurant="Backyard Grill" order="1 Homemade Gyros Plate, 1 Polish Sausage" %}
+      {% pattern cards/order restaurant="Backyard Grill" order="1 Homemade Gyros Plate, 1 Polish Sausage" %}
+      {% pattern cards/order restaurant="Backyard Grill" order="1 Homemade Gyros Plate, 1 Polish Sausage" %}
+    </div>
   </div>
 </div>
