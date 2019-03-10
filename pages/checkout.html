@@ -2,119 +2,93 @@
 layout: default
 ---
 
-<section class="grid grid-top wrapper pad-t">
-  <div class="unit xs-2-3 push-2">
-    <a href="/">
-      <i class="icon icon-logo color-green"><svg><use xlink:href="/images/icons.svg#logo"></use></svg></i>
-    </a>
-  </div>
-  <div class="unit xs-1-3 text-right">
-    <div class="grid grid-top">
-      <a class="unit xs-2-3" href="/pages/checkout">
-        <i class="icon i-32 cart-icon"><svg><use xlink:href="/images/icons.svg#cart"></use></svg></i>
-      </a>
-      <a class="unit xs-1-3" href="/pages/accounts">
-        <i class="icon i-32">
-          <img class="round-photo" src="/images/janelle.jpg" alt="Profile">
-        </i>
-      </a>
-    </div>
+<section>
+  <div>
+    <h1 class="uppercase">Checkout</h1>
+    <p class="font-secondary push-0">Your order from</p>
+    <h2>Taj Mahal Cuisine</h2>
   </div>
 </section>
 
-<div class="wrapper drop-shadow white-background island">
+<div>
   <section>
     <div>
-      <h1 class="uppercase">Checkout</h1>
-      <p class="font-secondary push-0">Your order from</p>
-      <h2>Taj Mahal Cuisine</h2>
+      <div class="address-field">
+        <h3>Address</h3>
+        <p class="font-secondary">231 Rosemount Ave, Toronto, ON M4P 1Z4, Canada</p>
+        <img class="img-flex" src="/images/map.jpg" alt="">
+      </div>
+      <div>
+        <h3>Payment</h3>
+        {% pattern cards/payment %}
+      </div>
     </div>
   </section>
 
-  <div class="grid">
-    <section class="unit xs-1 s-1-2">
+  <section>
+    <form method="POST" action="#" role="search">
       <div>
-        <div class="border-bottom pad-b push">
-          <h3 class="push-0">Address</h3>
-          <p class="font-secondary micro">231 Rosemount Ave, Toronto, ON M4P 1Z4, Canada</p>
-          <img class="img-flex" src="/images/map.jpg" alt="">
+        <div class="border-bottom">
+          <p>Butter Chicken</p>
         </div>
-        <div>
-          <h3 class="push-1-2">Payment</h3>
-          {% pattern cards/payment %}
+        <div class="border-bottom grid push">
+          <div class="unit xs-1-2">
+            <p class="color-accent font-secondary push-0">$19.95</p>
+          </div>
+          <div class="unit xs-1-2">
+            <img src="/images/minus-button.svg" alt=""> 1 <img src="/images/plus-button.svg" alt="">
+          </div>
         </div>
       </div>
-    </section>
 
-    <section class="unit xs-1 s-1-2 checkout-order">
-      <h3 class="push-0">Order</h3>
-      <form method="POST" action="#" role="search">
-        <div>
-          <div class="border-bottom">
-            <p class="push-1-4">Butter Chicken</p>
+      <div>
+        <div class="border-bottom">
+          <p>Tandoori Chicken</p>
+        </div>
+        <div class="border-bottom grid push">
+          <div class="unit xs-1-2">
+            <p class="color-accent font-secondary push-0">$19.95</p>
           </div>
-          <div class="border-bottom grid grid-middle push">
-            <div class="unit xs-1-2 pad-t-1-4 pad-b-1-4">
-              <p class="color-accent font-secondary push-0">$19.95</p>
-            </div>
-            <div class="unit xs-1-2 text-right">
-              <img src="/images/minus-button.svg" alt=""> 1 <img src="/images/plus-button.svg" alt="">
-            </div>
+          <div class="unit xs-1-2">
+            <img src="/images/minus-button.svg" alt=""> 1 <img src="/images/plus-button.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      {% pattern forms/textbox-form %}
+
+      <div>
+        <div class="grid border-bottom">
+          <div class="unit xs-1-2">
+            <p>Subtotal</p>
+          </div>
+          <div class="unit xs-1-2 text-right">
+            <p>$39.90</p>
+          </div>
+
+          <div class="unit xs-1-2">
+            <p>Delivery fee</p>
+          </div>
+          <div class="unit xs-1-2 text-right">
+            <p>$2.99</p>
+          </div>
+
+          <div class="unit xs-1-2">
+            <p>Tax</p>
+          </div>
+          <div class="unit xs-1-2 text-right">
+            <p>$5.58</p>
           </div>
         </div>
 
-        <div>
-          <div class="border-bottom">
-            <p class="push-1-4">Tandoori Chicken</p>
+        <div class="grid">
+          <div class="unit xs-1-2">
+            <p class="uppercase">Total</p>
           </div>
-          <div class="border-bottom grid grid-middle push">
-            <div class="unit xs-1-2 pad-t-1-4 pad-b-1-4">
-              <p class="color-accent font-secondary push-0">$19.95</p>
-            </div>
-            <div class="unit xs-1-2 text-right">
-              <img src="/images/minus-button.svg" alt=""> 1 <img src="/images/plus-button.svg" alt="">
-            </div>
+          <div class="unit xs-1-2 text-right">
+            <p>$48.47</p>
           </div>
         </div>
-
-        <div class="push-2">
-          <p class="push-1-4">Notes</p>
-          {% pattern forms/textbox-form %}
-        </div>
-
-        <div>
-          <div class="grid border-bottom">
-            <div class="unit xs-1-2">
-              <p class="push-1-4">Subtotal</p>
-            </div>
-            <div class="unit xs-1-2 text-right">
-              <p class="push-1-4 font-secondary">$39.90</p>
-            </div>
-
-            <div class="unit xs-1-2">
-              <p class="push-1-4">Delivery fee</p>
-            </div>
-            <div class="unit xs-1-2 text-right">
-              <p class="push-1-4 font-secondary">$2.99</p>
-            </div>
-
-            <div class="unit xs-1-2">
-              <p>Tax</p>
-            </div>
-            <div class="unit xs-1-2 text-right">
-              <p class="font-secondary">$5.58</p>
-            </div>
-          </div>
-
-          <div class="grid grid-middle">
-            <div class="unit xs-1-2 pad-t">
-              <p class="uppercase">Total</p>
-            </div>
-            <div class="unit xs-1-2 text-right pad-t">
-              <p class="font-secondary">$48.47</p>
-            </div>
-          </div>
-      </form>
-    </section>
-  </div>
+    </form>
+  </section>
 </div>
