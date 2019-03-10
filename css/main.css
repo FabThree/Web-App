@@ -17,6 +17,11 @@ body.account {
   background-attachment: fixed;
 }
 
+.wrapper {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
 .profile-icon {
   width: 4rem;
 }

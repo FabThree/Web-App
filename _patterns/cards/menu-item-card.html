@@ -4,11 +4,11 @@
 
     <div class="unit xs-3-4 gutter-2 pad-b-2 pad-t">
       <h3 class="push-1-4">{{include.data.menuitem}}</h3>
-      <p class="font-secondary color-grey push-1-4">{{include.data.description}}</p>
+      <p class="font-secondary color-grey push-1-4 micro">{{include.data.description}}</p>
     </div>
   </div>
 
   <div class="card-btn absolute">
-    {% pattern buttons/add-to-cart price=include.data.price %}
+    {% pattern buttons/add-to-cart price=include.data.price link="/restaurant-modal" %}
   </div>
 </div>

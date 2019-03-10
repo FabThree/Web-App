@@ -4,22 +4,22 @@ popular:
     menuitem: Ultimate Fish Tacos
     description: Crisp fried base on a soft grilled white flour tortilla topped with mozzarella cheese, cabbage jicama slaw, cilantro…
     price: $15.75
-  - image:
+  - image: /images/decadent@2x.jpg
     category:
     menuitem: The Decadent Duo
     description: Have your cake and eat it too, with our decadent Belgian chocolate Ganache Torte paired with Milestones’ famous white…
     price: $15.00
-  - image:
+  - image: /images/roasted-mushroom@2x.jpg
     category:
     menuitem: Roasted Mushroom Soup
     description: Roasted field mushrooms, focaccia croutons, scallions, and basil infused oil. Serves two.
     price: $8.75
-  - image:
+  - image: /images/old-fashioned@2x.jpg
     category:
     menuitem: Old Fashioned Burger
     description: Fresh ground chicken burger topped with smoked bacon, aged cheddar cheese, lettuce, tomato, onion, our signature…
     price: $17.25
-  - image:
+  - image: /images/spicy-basil@2x.jpg
     category:
     menuitem: Spicy Basil Noodles
     description: Shrimp, chicken, egg and fresh vegetables sautéed in a chili infused coconut sauce, tossed with rice noodles…
@@ -27,43 +27,43 @@ popular:
 
 
 superfoods:
-  - image:
+  - image: /images/cakes-ocean@2x.jpg
     category:
     menuitem: Cakes by the Ocean
     description: Salmon, Shrimp, Quinoa, Mango Salsa, Wild Baby Arugula, Avocado Dill Aioli
     price: $14.00
-  - image:
+  - image: /images/superfood@2x.jpg
     category:
     menuitem: Superfood Salad
     description: Arugula, Sweet Potato, Avocado, Quinoa, Grape Tomatoes, Blueberries, Golden Beets...
     price: $11.00
-  - image:
+  - image: /images/ahi@2x.jpg
     category:
     menuitem: Ahi Tuna Power Bowl
     description: Ahi Tuna, Wasabi Ponzu Sauce, Edamame, Roasted Mushrooms, Grilled Pineapple, Grape Tomatoes, Sweet Potato…
     price: $23.00
-  - image:
+  - image: /images/pan-seared@2x.jpg
     category:
     menuitem: Pan-Seared Rainbow Trout
     description: Rainbow Trout, Spaghetti Squash, Charred Pineapple & Goji Berry Salsa, Wilted Spinach..
     price: $25.00
 starters:
-  - image:
+  - image: /images/asian-chicken@2x.jpg
     category:
     menuitem: Asian Chicken Bites
     description: Our classic chicken bites are given a tasty twist with crisp wontons, fresh cucumber, and sweet chilli sauce.
     price: $14.25
-  - image:
+  - image: /images/prime-rib@2x.jpg
     category:
     menuitem: Prime Rib Slider
     description: Prime rib, hand carved to order, crisp buttermilk onion strings, herb jus, and garlic horseradish aioli come…
     price: $5.50
-  - image:
+  - image: /images/hot-spinach@2x.jpg
     category:
     menuitem: Spinach and Artichoke Dip
     description: Creamy spinach, artichoke hearts, and Italian cheeses. Served with crispy tortilla chips and fresh cut salsa.
     price: $13.50
-  - image:
+  - image: /images/chicken-wings@2x.jpg
     category:
     menuitem: Chicken Wings
     description: Toss in your choice of sauce; sriracha Buffalo, sweet sesame ginger, or spicy harissa. Served with Asian slaw and…

@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{% pattern banners/restaurant-banner data=page %}
+{% assign restaurant=site.restaurants | where: "name", "Taj Mahal Cuisine" | first %}
+
+{% pattern banners/restaurant-banner data=restaurant %}
 
 {% pattern nav/foodnav %}
 
@@ -40,3 +42,5 @@ layout: default
     </div>
   </div>
 </section>
+
+{% pattern modal/modal %}
