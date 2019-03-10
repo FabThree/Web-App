@@ -56,3 +56,7 @@ a {
 a.active {
   text-decoration: underline;
 }
+
+.color-green {
+  color: var(--color-primary);
+}
