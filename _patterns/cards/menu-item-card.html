@@ -1,15 +1,14 @@
 <div class="card relative push">
   <div class="grid">
-    <div class="unit xs-1-4 card-img embed embed-3by1" style="background-image: url({{include.photo}})"></div>
+    <div class="unit xs-1-4 card-img embed embed-3by1" style="background-image: url({{include.data.image}})"></div>
 
     <div class="unit xs-3-4 gutter-2 pad-b-2 pad-t">
-      <p class="micro font-secondary color-accent push-1-2">{{include.cuisine}}</p>
-      <h3 class="push-1-4">{{include.menuitem}}</h3>
-      <p class="font-secondary color-grey push-1-4">{{include.menuitemdescription}}</p>
+      <h3 class="push-1-4">{{include.data.menuitem}}</h3>
+      <p class="font-secondary color-grey push-1-4">{{include.data.description}}</p>
     </div>
   </div>
 
   <div class="card-btn absolute">
-    {% pattern buttons/add-to-cart price=include.price %}
+    {% pattern buttons/add-to-cart price=include.data.price %}
   </div>
 </div>
