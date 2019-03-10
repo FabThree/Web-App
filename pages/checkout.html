@@ -8,15 +8,87 @@ layout: default
     <p class="font-secondary push-0">Your order from</p>
     <h2>Taj Mahal Cuisine</h2>
   </div>
-  <div>
-    <div class="address-field">
-      <h3>Address</h3>
-      <p class="font-secondary">231 Rosemount Ave, Toronto, ON M4P 1Z4, Canada</p>
-      <img class="img-flex" src="/images/map.jpg" alt="">
-    </div>
-    <div>
-      <h3>Payment</h3>
-      {% pattern cards/payment %}
-    </div>
-  </div>
 </section>
+
+<div>
+  <section>
+    <div>
+      <div class="address-field">
+        <h3>Address</h3>
+        <p class="font-secondary">231 Rosemount Ave, Toronto, ON M4P 1Z4, Canada</p>
+        <img class="img-flex" src="/images/map.jpg" alt="">
+      </div>
+      <div>
+        <h3>Payment</h3>
+        {% pattern cards/payment %}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <form method="POST" action="#" role="search">
+      <div>
+        <div class="border-bottom">
+          <p>Butter Chicken</p>
+        </div>
+        <div class="border-bottom grid push">
+          <div class="unit xs-1-2">
+            <p class="color-accent font-secondary push-0">$19.95</p>
+          </div>
+          <div class="unit xs-1-2">
+            <img src="/images/minus-button.svg" alt=""> 1 <img src="/images/plus-button.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="border-bottom">
+          <p>Tandoori Chicken</p>
+        </div>
+        <div class="border-bottom grid push">
+          <div class="unit xs-1-2">
+            <p class="color-accent font-secondary push-0">$19.95</p>
+          </div>
+          <div class="unit xs-1-2">
+            <img src="/images/minus-button.svg" alt=""> 1 <img src="/images/plus-button.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      {% pattern forms/textbox-form %}
+
+      <div>
+        <div class="grid border-bottom">
+          <div class="unit xs-1-2">
+            <p>Subtotal</p>
+          </div>
+          <div class="unit xs-1-2 text-right">
+            <p>$39.90</p>
+          </div>
+
+          <div class="unit xs-1-2">
+            <p>Delivery fee</p>
+          </div>
+          <div class="unit xs-1-2 text-right">
+            <p>$2.99</p>
+          </div>
+
+          <div class="unit xs-1-2">
+            <p>Tax</p>
+          </div>
+          <div class="unit xs-1-2 text-right">
+            <p>$5.58</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="unit xs-1-2">
+            <p class="uppercase">Total</p>
+          </div>
+          <div class="unit xs-1-2 text-right">
+            <p>$48.47</p>
+          </div>
+        </div>
+    </form>
+  </section>
+</div>
