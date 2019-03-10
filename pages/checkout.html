@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section>
+  <div>
+    <h1 class="uppercase">Checkout</h1>
+    <p class="font-secondary push-0">Your order from</p>
+    <h2>Taj Mahal Cuisine</h2>
+  </div>
+  <div>
+    <div class="address-field">
+      <h3>Address</h3>
+      <p class="font-secondary">231 Rosemount Ave, Toronto, ON M4P 1Z4, Canada</p>
+      <img class="img-flex" src="/images/map.jpg" alt="">
+    </div>
+    <div>
+      <h3>Payment</h3>
+      {% pattern cards/payment %}
+    </div>
+  </div>
+</section>
